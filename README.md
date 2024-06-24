@@ -12,10 +12,15 @@ This repository contains a fully-functional calculator implemented using a token
 
 To get started with this calculator, clone the repository and run the main script. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
+```bash
+git clone https://github.com/pierrelissope/ast_calculator.git
+cd ast_calculator
+./ast_calculator
+```
+
 ## Example Usage
 
 ```bash
-./calculator 
 Enter Your Math Expression: 3 + 5 * (2 - 8)
 Result: -27
 Enter Your Math Expression: (((6 * 5) + 67 * 89) * (93 - 34))
@@ -26,11 +31,6 @@ Result: 353587
 
 CC, G++ or Clang
 
-```bash
-git clone https://github.com/pierrelissope/ast_calculator.git
-cd ast_calculator
-./ast_calculator
-```
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
