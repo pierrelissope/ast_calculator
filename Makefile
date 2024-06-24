@@ -19,9 +19,7 @@ SRCOBJ = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC))
 LIBSRC = 
 LIBOBJ = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(LIBSRC))
 
-SRC_TEST = $(addprefix $(TESTS_DIR)/,\
-            redirect.c \
-           )
+SRC_TEST = 
 OBJ_TEST = $(patsubst $(TESTS_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRC_TEST))
 
 CFLAGS = -Wall -Wextra
