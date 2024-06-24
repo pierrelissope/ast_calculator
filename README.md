@@ -29,6 +29,7 @@ CC, G++ or Clang
 ```bash
 git clone https://github.com/pierrelissope/ast_calculator.git
 cd ast_calculator
+./ast_calculator
 ```
 ## License
 
